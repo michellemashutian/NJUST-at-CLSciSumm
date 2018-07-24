@@ -1,0 +1,10 @@
+pathogenic_jj
+close_jj
+computational_jj
+bilingual_jj
+considerable_jj
+semantic_jj
+topical_jj
+syntactic_jj
+geographical_jj
+additional_jj

@@ -1,0 +1,224 @@
+句子以这些词语开头java-startwith
+句子包含这些词语java-contains，可以直接用，我把所有单复数形式都考虑了
+注意大小写，全都改为小写来做，词典与原文。
+
+---aim---
+句子中包含这些词语:
+be applied to
+is applied to
+are applied to
+been applied to
+be adapted to
+is adapted to
+are adapted to
+been adapted to
+focus on
+focuses on
+focused on
+to avoid
+to aid
+to apply
+to mine
+to produce
+to cope with
+to solve
+to find
+to improve
+to generate
+to prove
+to compare
+in order to
+is to do
+make use of
+is used as
+are used as
+be used as
+is used for
+are used for
+be used for
+use it for
+used it for
+use them for
+used them for
+considering
+improve
+improving
+optimize
+optimizing
+optimal
+address
+purpose
+cast as
+test on
+tests on
+tested on
+in consistence with
+a lot of attention
+a key component 
+a well-studied problem
+
+
+---method---
+句子中包含这些词语:
+model
+system
+method
+work
+approach
+algorithm
+strategy
+research
+study
+task
+carry out
+solution
+use
+using
+aggregate
+aggregating
+detail
+build
+develop
+produce
+producing
+
+
+---result---
+句子以这些词语开头：
+as shown in
+that is
+following
+
+
+句子包含这些模式：
+XX.XX
+XX/XX
+XXK
+%
+XX = XX
+
+句子中包含这些词语:
+accuracy
+accuracies
+recall
+precision
+F-measure
+F- measure
+F measure
+F1
+F score
+F- score
+F-score
+popular
+performance
+finally
+result
+error
+consistency
+opposite
+points
+find that
+finds that
+found that
+has been shown
+have been shown
+have shown 
+has shown
+showing that
+show that
+shows that
+showed that
+lower than
+more than
+less than
+better
+low
+lower
+high
+higher
+combination of
+superior
+output
+advancing
+good
+achieve
+achieving
+best
+performer
+inherit
+degree
+alternative
+
+---hypothesis---
+effect
+assume
+appear
+is inspired by
+are inspired by
+be inspired by
+motivate
+argue
+cause
+applicability
+ensure
+which aim to
+
+---implication---
+句子以这些词语开头：
+Consequently
+Thus
+Furthermore
+In addition
+However
+Since
+
+句子中包含这些词语及其变形：
+is estimated
+are estimated
+be estimated
+been estimated
+led to
+lead to
+agree
+difficult
+can be taken as
+fail to
+failed to
+fails to
+reliable
+less
+suffer
+important role
+drawback
+extensively
+common wisdom
+well-known
+well known
+objective
+adequately
+presuppose
+is obtained
+are obtained
+be obtained
+been obtained
+prominent
+well
+is the basis for
+are the basis for
+be the basis for
+been the basis for
+be devoted to
+is devoted to
+are devoted to
+been devoted to
+limited
+would avoid
+can be improved by
+increasing
+due to
+central
+principal
+rather than
+further
+exploit
+strong

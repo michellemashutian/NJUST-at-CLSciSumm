@@ -1,0 +1,5 @@
+capture_vb
+provides_vbz
+using_vbg
+having_vbg
+attracted_vbn

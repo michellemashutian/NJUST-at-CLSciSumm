@@ -1,0 +1,44 @@
+package cls;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.HashMap;
+import java.util.Map;
+
+public class filter1 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		String inputpath1="C:\\Users\\mashut\\ma_document\\cl-summ\\clsumm\\aim-citation - Copy.txt";
+		//String inputpath2="C:\\Users\\mashut\\ma_data\\cjobs-data\\nwb\\DSDEtree\\dsde-course.txt";
+		String outputpath1="C:\\Users\\mashut\\ma_document\\cl-summ\\clsumm\\aim-citation - Copy1.txt";
+	    
+		FileOutputStream fos= new FileOutputStream(outputpath1);
+		OutputStreamWriter osw= new OutputStreamWriter(fos, "utf8");
+	
+		
+		InputStreamReader read2 = new InputStreamReader(new FileInputStream(inputpath1),"utf8");
+		BufferedReader br2 = new BufferedReader(read2);
+		String line2 = null;
+	    while ((line2=br2.readLine())!=null) 
+	    {
+	    	line2=line2.toLowerCase();
+	    	if (line2.contains("using")|line2.contains("method")|line2.contains("use")) 
+	    	{
+				
+			}
+	    	else
+	    	{
+	    		osw.write(line2+"\r\n");
+	    	}
+	    }
+	    br2.close();
+	    osw.close();
+	}
+
+}
