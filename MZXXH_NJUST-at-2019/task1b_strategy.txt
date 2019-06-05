@@ -1,0 +1,37 @@
+1，句子预处理
+   a，转换成小写。
+   b，去掉“[]”中的部分，通过观察发现，带有中括号的大多是引用标记，比如“King [8]”。
+   c，去掉包含年份的“()”内容，比如“(blei et al., 2003)”
+   d，使用rake_nltk提取句子的关键部分（短语或者词语），然后切分成单词并去重。
+
+2，数字特征
+   包含“%”的数字和包含“.”的数字分别作为一个维度
+
+3，概率特征
+   a，计算单词的df，选取2<=df<=100的单词。
+   b，计算单词属于五个类别的概率
+   c，将经过预处理的句子中所有单词的概率相加，并做归一化处理，得到句子属于各个类别的概率。
+   d，Reference Text和Citation Text的概率以0.8：0.2的比例相加，得到5维特征。
+
+4，模型训练
+   a，区分各类别的训练数据，只标注1个类别标签的，直接归到这一类；
+      标注了2个类别标签的，如果第一个不是“Method_Citation”，则归为第一个标签的类别，
+      观察发现似乎是按照所属类别的可能性大小顺序标的多个标签；
+      如果第一个标签是“Method_Citation”，则归为第二个标签的类别，因为“Method_Citation”太多了。
+   b，将“Aim_Citation”的数据*5，“Hypothesis_Citation”的数据*5，“Implication_Citation”的数据*3
+   c，使用LogisticRegression训练预测模型
+   d，不复制数据和复制数据分别训练一个模型，记为model1和model2。
+
+5，模型预测结合规则
+   a，词语匹配规则，匹配的是未经过预处理的Reference Text
+   b，预测概率规则
+   c，前面步骤判断出来没有结果的默认为“Method_Citation”
+
+
+一：model1，加规则a，c
+   DT,three_vote,LR,mlp_0.55,system1    0.2
+二：model2，加规则a，c
+   linear,mlp_0.65,mlp_0.95,system2,system4    0.4
+三：model2，加规则a，b，c
+   rbf,five_vote,mlp_0.75,mlp_0.85,system3    0.6
+
