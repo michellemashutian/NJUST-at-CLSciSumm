@@ -1,1 +1,8 @@
 This is a file for the system we submitted in 2019 for CL-SciSumm.
+
+Our team has attended the task in 2017 and 2018. In 2019, we propose new strategies for all the three subtasks for CL-SciSumm 2019. 
+In task 1A, more efficient features are picked out, negative sampling is utilized to alleviate the imbalanced-data problem and neural network models are constructed additionally. 
+For task 1B, we identify facet according to the probability of word learned from training set. 
+In task 2, we firstly arrange sentences following logical order and then select important ones to generate summary.
+
+Cite our paper if needed, IR&TM-NJUST @ CLSciSumm-19. It will be included in In Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries (BIRNDL 2019) @ SIGIR 2019, Paris, France. 
