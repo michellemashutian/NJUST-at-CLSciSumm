@@ -9,8 +9,11 @@ Task 2: We organized sentences in logical order before selecting the key ones to
 You can find more details about the competition on the official CL-SciSumm site: [CL-SciSumm.](https://github.com/WING-NUS/scisumm-corpus)
 
 Our work can be found here:
+
 2019: https://ceur-ws.org/Vol-2414/paper19.pdf
+
 2018: https://ceur-ws.org/Vol-2132/paper11.pdf
+
 2017: https://ceur-ws.org/Vol-2002/njustclscisumm2017.pdf
 
 You can also check this paper to get more information.
